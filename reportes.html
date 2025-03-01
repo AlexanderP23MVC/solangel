@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Especialistas</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/sweetalert2.css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="Imagenes/logo2.png" type="image/png">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/material.min.js" ></script>
+	<script src="js/sweetalert2.min.js" ></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js" ></script>
+	<script src="js/main.js" ></script>
+</head>
+<body>
+	<!-- navLateral -->
+	<section class="full-width navLateral">
+		<div class="full-width navLateral-bg btn-menu"></div>
+		<div class="full-width navLateral-body">
+			<div class="full-width navLateral-body-logo text-center tittles">
+				<i class="zmdi zmdi-close btn-menu"></i> SCR BDV 
+			</div>
+			<figure class="full-width navLateral-body-tittle-menu">
+				<div>
+                    <br>
+                    <br>
+					<img src="assets/img/neutro.png" alt="Avatar" class="img-responsive">
+				</div>
+				<figcaption>
+                    
+                    <br>
+					<span>
+						Solangel Figueroa<br>
+						<small>Admin</small>
+					</span>
+				</figcaption>
+			</figure>
+			<nav class="full-width">
+				<ul class="full-width list-unstyle menu-principal">
+					<li class="full-width">
+						<a href="Home.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-view-dashboard"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								HOME
+							</div>
+						</a>
+					</li>
+					
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="#!" class="full-width btn-subMenu">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-face"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								USUARIOS
+							</div>
+							<span class="zmdi zmdi-chevron-left"></span>
+						</a>
+						<ul class="full-width menu-principal sub-menu-options">
+							<li class="full-width">
+								<a href="admin.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-account"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										ADMINISTRADORES
+									</div>
+								</a>
+							</li>
+							<li class="full-width">
+								<a href="especialistas.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-accounts"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										ESPECIALISTAS
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="servers.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-laptop"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								SERVIDORES
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="reportes.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-file-text"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								REPORTES
+							</div>
+						</a>
+					</li>
+					</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<!-- pageContent -->
+	<section class="full-width pageContent">
+		<!-- navBar -->
+		<div class="full-width navBar">
+			<div class="full-width navBar-options">
+				<i class="zmdi zmdi-swap btn-menu" id="btn-menu"></i>	
+				<div class="mdl-tooltip" for="btn-menu">Ocultar/Mostrar</div>
+				<nav class="navBar-options-list">
+					<ul class="list-unstyle">
+						<li class="btn-exit" id="btn-exit">
+							<i class="zmdi zmdi-power"></i>
+							<div class="mdl-tooltip" for="btn-exit">Salir</div>
+						</li>
+						<li class="text-condensedLight noLink" ><small>Solangel Figueroa</small></li>
+						<li class="noLink">
+							<figure>
+								<img src="assets/img/neutro.png" alt="Avatar" class="img-responsive">
+							</figure>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<section class="full-width header-well">
+			<div class="full-width header-well-icon">
+				<i class="zmdi zmdi-file-text"></i>
+			</div>
+			<section class="full-width text-center" style="padding: 40px 0;">
+				<h2 class="text-center tittles">Reportes</h2>
+				<section class="full-width text-center" style="padding: 40px 0;">
+					<h2 class="text-center tittles">Buscar backups por fecha</h2>
+					<form action="search_results.html" method="get" style="display: inline-block; text-align: left;">
+						<label for="month">Mes:</label>
+						<select id="month" name="month" style="margin-right: 10px;">
+							<option value="01">Enero</option>
+							<option value="02">Febrero</option>
+							<option value="03">Marzo</option>
+							<option value="04">Abril</option>
+							<option value="05">Mayo</option>
+							<option value="06">Junio</option>
+							<option value="07">Julio</option>
+							<option value="08">Agosto</option>
+							<option value="09">Septiembre</option>
+							<option value="10">Octubre</option>
+							<option value="11">Noviembre</option>
+							<option value="12">Diciembre</option>
+						</select>
+						<label for="year">Año:</label>
+						<input type="number" id="year" name="year" min="2024" max="2100" style="margin-right: 10px;">
+						<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Buscar</button>
+					</form>
+				</section>
+				
+				<div style="text-align: center; margin-top: 20px;">
+					<button onclick="window.print()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Descargar en PDF</button>
+				</div>
+</body>
+</html>

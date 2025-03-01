@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- contenido en español -->
+<head>
+	<meta charset="UTF-8"> <!-- etiqueta para uso de caracteres -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">   <!-- etiqueta para vista y adatacion a ancho de pantalla -->
+	<title>Home</title>
+	<link rel="stylesheet" href="css/normalize.css">  <!-- inclusion estilos css -->
+	<link rel="stylesheet" href="css/sweetalert2.css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="Imagenes/logo2.png" type="image/png">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/material.min.js" ></script>
+	<script src="js/sweetalert2.min.js" ></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js" ></script>
+	<script src="js/main.js" ></script>  <!-- Etiquetas java scrip -->
+</head>
+
+    <body>
+	<!-- navLateral / Barra lateral-->
+	    <section class="full-width navLateral">
+		<div class="full-width navLateral-bg btn-menu"></div>
+		<div class="full-width navLateral-body">
+		<div class="full-width navLateral-body-logo text-center tittles">
+				<i class="zmdi zmdi-close btn-menu"></i> SCR BDV 
+		</div>
+
+		<figure class="full-width navLateral-body-tittle-menu">
+		<div>
+                <br>
+                <br>
+			<img src="assets/img/neutro.png" alt="Avatar" class="img-responsive"> <!-- VALIDAR CONOCIMIENTO-->
+		</div>
+
+		<figcaption> <!-- Barra lateral-->
+                    
+                <br>
+			<span>
+				Solangel Figueroa<br>
+			<small>Admin</small>
+		    </span>
+		</figcaption>
+			</figure>
+
+		<nav class="full-width"> <!-- Barra lateral / lista -->
+			<ul class="full-width list-unstyle menu-principal">
+			<li class="full-width">
+			<a href="Home.html" class="full-width">
+			<div class="navLateral-body-cl">
+			<i class="zmdi zmdi-view-dashboard"></i>
+			</div>
+					
+		<div class="navLateral-body-cr">  <!-- inicio lateral -->
+								HOME
+		    </div>
+		    </a>
+		    </li>
+					
+		<li class="full-width divider-menu-h"></li>
+		<li class="full-width">
+		<a href="#!" class="full-width btn-subMenu">
+		<div class="navLateral-body-cl">
+		<i class="zmdi zmdi-face"></i>
+			</div>
+							
+		<div class="navLateral-body-cr"> <!-- Usuario lateral -->
+								USUARIOS
+			</div>
+		<span class="zmdi zmdi-chevron-left"></span>
+			</a>
+		<ul class="full-width menu-principal sub-menu-options"> <!-- Desplegable -->
+		<li class="full-width">
+		<a href="listadmi.php" class="full-width">
+		<div class="navLateral-body-cl">
+		<i class="zmdi zmdi-account"></i>
+			</div>
+									
+		<div class="navLateral-body-cr"> <!-- Administradores lateral -->
+										ADMINISTRADORES
+			</div>
+			</a>
+			</li>
+							
+		<li class="full-width">
+		<a href="especialistas.php" class="full-width">
+		<div class="navLateral-body-cl">
+		<i class="zmdi zmdi-accounts"></i>
+			</div>
+		<div class="navLateral-body-cr"> <!-- Especialistas lateral -->
+										ESPECIALISTAS
+			</div>
+			</a>
+			</li>
+			</ul>
+			</li>
+					
+		<li class="full-width divider-menu-h"></li>
+		<li class="full-width">
+	    <a href="servers.html" class="full-width">
+		<div class="navLateral-body-cl">
+		<i class="zmdi zmdi-laptop"></i>
+			</div>
+							
+		<div class="navLateral-body-cr"> <!-- Servidores lateral -->
+								SERVIDORES
+			</div>
+			</a>
+			</li>
+		<li class="full-width divider-menu-h"></li>
+		<li class="full-width">
+		<a href="reportes.html" class="full-width">
+		<div class="navLateral-body-cl">
+		<i class="zmdi zmdi-file-text"></i>
+			</div>
+							
+		<div class="navLateral-body-cr"> <!-- Reportes lateral -->
+								REPORTES
+			</div>
+			</a>
+			</li>
+			</ul>
+			</li>
+			</ul>
+			</nav>
+		</div>
+	    </section>
+
+		
+	                         <!-- pagina de contenido -->
+	<section class="full-width pageContent">
+		<!-- navBar -->
+		<div class="full-width navBar">
+			<div class="full-width navBar-options">
+				<i class="zmdi zmdi-swap btn-menu" id="btn-menu"></i>	
+				<div class="mdl-tooltip" for="btn-menu">Ocultar/Mostrar</div>
+				<nav class="navBar-options-list">
+					<ul class="list-unstyle">
+						
+						<li class="btn-exit" id="btn-exit">
+							<i class="zmdi zmdi-power"></i>
+							<div class="mdl-tooltip" for="btn-exit">Salir</div>
+						</li>
+						<li class="text-condensedLight noLink" ><small>Solangel Figueroa</small></li>
+						<li class="noLink">
+							<figure>
+								<img src="assets/img/neutro.png" alt="Avatar" class="img-responsive"> <!-- icono de la linea superior  -->
+							</figure>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<section class="full-width text-center" style="padding: 40px 0;">
+			<h2 class="text-center tittles">Resumen</h2>
+			<!-- Tiles -->
+            <br>
+			<article class="full-width tile">
+				<a href="admin.html">
+				<div class="tile-text">
+					<span class="text-condensedLight">
+						1<br>
+						<small>Administradores</small>
+					</span>
+				</div>
+			</a>
+				<i class="zmdi zmdi-account tile-icon"></i>
+			</article>
+			<article class="full-width tile">
+				<a href="especialistas.html">
+				<div class="tile-text">
+					<span class="text-condensedLight">
+						20<br>
+						<small>Especialistas</small>
+					</span>
+				</div>
+			</a>
+				<i class="zmdi zmdi-accounts tile-icon"></i>
+			</article>
+            <br>
+            <br>
+            <br>
+			<article class="full-width tile">
+				<a href="servers.html">
+				<div class="tile-text">
+					<span class="text-condensedLight">
+						10<br>
+						<small>Servidores</small>
+					</span>
+				</div>
+			</a>
+				<i class="zmdi zmdi-laptop tile-icon"></i>
+			</article>
+			<article class="full-width tile">
+				<a href="reportes.html">
+				<div class="tile-text">
+					<span class="text-condensedLight">
+						<br>
+						<small>Reportes</small>
+					</span>
+				</div>
+			</a>
+				<i class="zmdi zmdi-file-text tile-icon"></i>
+			</article>
+			
+		</section>
+			
+	                </div>
+	            </div>
+			</div>
+		</section>
+	</section>
+</body>
+</html>
